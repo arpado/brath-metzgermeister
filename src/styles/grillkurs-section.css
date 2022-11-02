@@ -1,0 +1,64 @@
+/* GrillKurs Section */
+
+.grillkurs-container {
+    width: 100%;
+    height: fit-content;
+    /* height: 1000px; */
+    background-color: var(--primary-red);
+    position: relative;
+    top: calc(var(--header-top-height) + var(--header-bottom-height));
+  
+  }
+  .grillkurs-text-container {
+    height: 100%;
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin: 8rem 0;
+  }
+  .grillkurs-text-container > h2, ul {
+    list-style-position: inside;
+    width: 250px;
+    line-height: 2rem;
+    margin: 2rem, 0;
+  }
+  .grillkurs-text-container > ul > li {
+    margin-top: 1rem;
+  }
+  .grillkurs-text-container > .button-element {
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  /* .grillkurs-text {
+    width: 250px;
+  } */
+  .grillkurs-pic-container {
+    height: fit-content;
+    width: 100%;
+    /* position: absolute; */
+    right: 0;
+  }
+  .grillkurs-pic-container > img {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .grillkurs-text-container {
+      align-items: flex-start;
+      text-align: start;
+      margin: 0;
+    }
+    .grillkurs-pic-container {
+      width: 50%;
+    }
+  }
+
+
+  /* ez lehet, h nem kell majd  */
+  .test {
+      min-width: 300px;
+      width: 50%;
+      max-width: 500px;
+      /* margin: 100px auto; */
+  }
+  

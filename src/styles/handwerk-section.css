@@ -1,0 +1,17 @@
+/* HandKraft Section */
+
+.handwerk-container {
+  width: 100%;
+  height: fit-content;
+  padding: 6rem 0;
+  background-color: var(--primary-black);
+  position: relative;
+  top: calc(var(--header-top-height) + var(--header-bottom-height));
+}
+.handwerk-text {
+  max-width: 500px;
+  text-align: center;
+}
+.product-images-container {
+  margin: 3rem 0;
+}

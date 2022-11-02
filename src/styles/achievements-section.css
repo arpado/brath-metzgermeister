@@ -1,0 +1,103 @@
+/* Achievements Section */
+
+.achievements-container {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--primary-black);
+    position: relative;
+    top: calc(var(--header-top-height) + var(--header-bottom-height));
+  }
+  
+  .genussnetz-section {
+    width: 100%;
+    height: fit-content;
+    gap: 4rem;
+    margin: 6rem 0;
+  }
+  .genussnetz-image, .genussnetz-text {
+    width: 400px;
+    max-width: 90%;
+    height: fit-content;
+    margin: 2rem 0;
+        /* padding: 0 1rem; */
+  }
+  .genussnetz-text {
+    text-align: center;
+  }
+  /* .genussnetz-image:first-child {
+    width: 300px;
+    height: 150px;
+  } */
+  
+  .award-container {
+    height: 200px;
+    width: 200px;
+  }
+  .award-container > p {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+  .medal-container {
+    width: 150px;
+    height: 150px;
+  }
+  .testimonials-section {
+    width: 100%;
+    height: fit-content;
+    margin: 2rem 0;
+  }
+  .testimonial-container {
+    width: 80%;
+    height: 100%;
+    margin: 2rem 0;
+
+    /* ez azert kell, mert veletlenul pont eltalaltam a swiper-container custom classt, es auto alkalmazza a felso swiper section top erteket */
+    top: 0;
+  }
+  .testimonial-slide {
+    /* border: 1px solid white; */
+    background-color: var(--secondary-black);
+    height: 400px;
+    transition: transform 1s ease-in-out;
+    position: relative;
+  }
+  
+  .testimonial-container > .swiper-wrapper > .swiper-slide {
+    transform: scale(0.7);
+  }
+  .testimonial-container > .swiper-wrapper > .swiper-slide-active {
+    transform: scale(1.0);
+  }
+  .testimonial-buttons-container {
+    height: fit-content;
+    width: 200px;
+    margin-top: 3rem;
+  }
+  .testimonial-button-prev, .testimonial-button-next {
+    position: unset;
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    border-radius: 50%;
+    /* top: 85%; */
+  }
+  .testimonial-button-prev::after, .testimonial-button-next::after {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .testimonial-button-prev {
+    /* left: 35%; */
+  }
+  .testimonial-button-next {
+    /* right: 35%; */
+  }
+
+  @media screen and (min-width: 1100px) {
+    .genussnetz-text {
+      text-align: start;
+    }
+    .testimonial-button-prev, .testimonial-button-next {
+      /* position: absolute; */
+    }
+  }

@@ -1,0 +1,23 @@
+.button-element {
+    width: 175px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 3rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-element > :only-child {
+    color: inherit;
+    margin: 0;
+}
+.button-red {
+    border: 2px solid var(--primary-white);
+    background-color: var(--primary-red);
+    color: var(--primary-white);
+}
+.button-white {
+    border: 2px solid var(--secondary-red);
+    background-color: var(--primary-white);
+    color: var(--primary-black);
+}

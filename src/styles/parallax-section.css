@@ -1,0 +1,17 @@
+/* Parallax Section */
+
+.parallax-container {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    top: calc(var(--header-top-height) + var(--header-bottom-height));
+    background: linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../images/emerson-vieira-cpkPJ-U9eUM-unsplash.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

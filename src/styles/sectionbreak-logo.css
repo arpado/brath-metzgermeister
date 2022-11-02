@@ -1,0 +1,12 @@
+/* SectionBreak Logo */
+
+.sectionbreak-logo-container {
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .horizontal-line {
+    width: 45%;
+    border-color: #535353;
+  }
+  

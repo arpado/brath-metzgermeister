@@ -1,0 +1,12 @@
+/* Impressum Section */
+
+.impressum-container {
+    width: 100%;
+    height: fit-content;
+    background-color: #66000B;
+    position: relative;
+    top: calc(var(--header-top-height) + var(--header-bottom-height));
+  }
+  .impressum-container > :last-child {
+    text-align: end;
+  }

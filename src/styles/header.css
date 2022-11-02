@@ -1,0 +1,136 @@
+/* Header Element */
+
+header {
+  width: 100vw;
+  /* height: 100px; */
+  display: flex;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 999;
+}
+.logo-section {
+  width: fit-content;
+  height: fit-content;
+}
+.logo-small {
+  width: 125px;
+  height: 125px;
+}
+.logo-large {
+  width: 100%;
+  height: 100%;
+}
+/* .header-container {
+  width: fit-content;
+} */
+.header-links {
+
+}
+.header-top {
+  width: 100%;
+  height: var(--header-top-height);
+  background-color: var(--secondary-red);
+  padding-right: 10px;
+}
+.header-top::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100vw;
+  height: var(--header-top-height);
+  background-color: var(--secondary-red);
+  z-index: -1;
+}
+.horizontal-link-section {
+  width: fit-content;
+  height: 100%;
+  /* display: flex;
+  align-items: center; */
+  list-style: none;
+}
+.vertical-link-section {
+  /* height: calc(100vh - (var(--header-top-height) + var(--header-bottom-height))); */
+  height: fit-content;
+  width: fit-content;
+  position: absolute;
+  top: calc(var(--header-top-height) + var(--header-bottom-height));
+  right: 0;
+  /* transform: translateX(100px); */
+  background-color: var(--primary-red);
+  list-style: none;
+  transition: transform 1s ease-in-out;
+}
+.active {
+  transform: translateX(0px);
+}
+.horizontal-link-section > li {
+  margin-left: 10px;
+}
+.vertical-link-section > li {
+  margin: 10px;
+}
+.pdf-link {
+  width: fit-content;
+  height: 100%;
+  /* margin-left: 10px; */
+  display: flex;
+  align-items: center;
+
+}
+.pdf-link > a {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pdf-link > a > p{
+  margin: 0 10px;
+}
+.hamburger {
+  width: fit-content;
+  height: 50px;
+}
+.hamburger-bar, .hamburger-bar::before, .hamburger-bar::after {
+  width: 50px;
+  height: 6px;
+  border-radius: 10px;
+  background-color: var(--primary-white);
+}
+.hamburger-bar {
+  position: relative;
+}
+.hamburger-bar::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+}
+.hamburger-bar::after {
+  content: "";
+  position: absolute;
+  top: 15px;
+}
+.header-bottom {
+  width: 100%;
+  height: var(--header-bottom-height);
+  background-color: var(--secondary-black);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10px;
+}
+.header-bottom::before {
+  position: absolute;
+  left: 0;
+  content: "";
+  width: 100vw;
+  height: var(--header-bottom-height);
+  background-color: var(--secondary-black);
+  z-index: -1;
+}
+.open-hours-small {
+  font-size: 0.65rem;
+}
+
+@media and screen (min-width: 600) {
+
+}

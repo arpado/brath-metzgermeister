@@ -1,0 +1,44 @@
+/* Dry Aged Section */
+
+.dry-aged-container {
+    width: 100%;
+    height: fit-content;
+    background-color: var(--primary-black);
+    position: relative;
+    top: calc(var(--header-top-height) + var(--header-bottom-height));
+    padding: 0, 0, 1rem, 0;
+  }
+  .dry-aged-text-container {
+    min-width: 300px;
+    width: 50%;
+    text-align: center;
+    /* min-height: 350px; */
+    /* height: fit-content; */
+  }
+  .dry-aged-pics-container {
+    min-width: 300px;
+    max-width: 100%;
+    width: 50%;
+    /* min-height: 350px; */
+    height: fit-content;
+  }
+  .dry-aged-pics-container > img {
+    height: 33%;
+    width: 33%;
+  }
+  .dry-aged-pics-container > :nth-child(1) {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .dry-aged-container {
+      padding: 5rem, 0;
+    }
+    .dry-aged-text-container {
+      text-align: start;
+      padding-right: 3rem;
+    }
+  }
+ 
+  
