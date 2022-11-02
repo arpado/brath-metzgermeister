@@ -1,6 +1,6 @@
 import "../styles/dry-aged-section.css";
 import ButtonElement from './ButtonElement';
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 
 const DryAgedSection = () => {

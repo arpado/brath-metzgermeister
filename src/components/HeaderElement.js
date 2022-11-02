@@ -3,7 +3,7 @@ import logo from '../images/logo.svg';
 import pdfIcon from '../images/pdf-icon.svg';
 import clock from '../images/clock.svg';
 import "../styles/header.css";
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 import NavigationMenu from './NavigationMenu';
 
 const links = ['Die Metzgerei', 'Dry Aged', 'Fleischversand', 'Events/Kurse', 'Partyservice', 'Tagesessen', 'Impressum', 'Kontakt',]

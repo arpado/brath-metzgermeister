@@ -1,5 +1,5 @@
 import "../styles/custom-spices-section.css";
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 const CustomSpicesSection = () => {
 

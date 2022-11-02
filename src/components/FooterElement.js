@@ -1,6 +1,6 @@
 import logo from '../images/logo.svg';
 import "../styles/footer-section.css";
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 
 const FooterElement = () => {

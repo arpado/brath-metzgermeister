@@ -1,7 +1,7 @@
 import "../styles/grillkurs-section.css";
 import ButtonElement from './ButtonElement';
 // import getMargin from './getMargin';
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 
 const GrillKurs = () => {

@@ -1,5 +1,5 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 //Navigation, Pagination,
 import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';

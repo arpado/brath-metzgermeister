@@ -3,7 +3,7 @@ import genussnetzImage from '../images/genussnetz-logo.png';
 import "../styles/achievements-section.css";
 import "../styles/flex-to-two-by-four-grid.css";
 import ButtonElement from './ButtonElement';
-import useWindowSize from './useWindowSize';
+import useWindowSize from '../modules/useWindowSize';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 //Navigation, Pagination,
