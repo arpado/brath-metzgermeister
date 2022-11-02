@@ -23,9 +23,9 @@ header {
 /* .header-container {
   width: fit-content;
 } */
-.header-links {
+/* .header-links {
 
-}
+} */
 .header-top {
   width: 100%;
   height: var(--header-top-height);
@@ -131,6 +131,6 @@ header {
   font-size: 0.65rem;
 }
 
-@media and screen (min-width: 600) {
+/* @media and screen (min-width: 600) {
 
-}
+} */
